@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T18:17:09.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="QqhESruBHynl0nOGCwb4" version="24.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-20T19:06:51.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="lxuyH7HB7AcKsJ2-niNf" version="24.5.5" type="github" pages="3">
   <diagram name="第 1 页" id="9cnmlv8norBZ3jZtzaRS">
     <mxGraphModel dx="1268" dy="1246" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -832,6 +832,29 @@
         </mxCell>
         <mxCell id="1i9-2K18aNdvddEIqsTZ-48" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 36px;&quot;&gt;3. 利用超时机制可以解决这个问题。设置一个超时时间，如果超过这个时间还不可以访问，就自动断开连接。&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2271.5" y="6448" width="919.5" height="104" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oq9YY7wTQ50N34VhTSNS" name="第 3 页">
+    <mxGraphModel dx="719" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X4iq3b31GJv7bNmqpovW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X4iq3b31GJv7bNmqpovW-3" target="X4iq3b31GJv7bNmqpovW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4iq3b31GJv7bNmqpovW-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;A&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4iq3b31GJv7bNmqpovW-4" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;C&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="540" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X4iq3b31GJv7bNmqpovW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X4iq3b31GJv7bNmqpovW-5" target="X4iq3b31GJv7bNmqpovW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X4iq3b31GJv7bNmqpovW-5" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;B&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
