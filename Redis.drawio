@@ -1,9 +1,182 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T20:29:28.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.4" etag="MDGvi3ZQ_ilR1l1RhRTe" type="github">
-  <diagram name="第 1 页" id="L-yS8eXxWB2dS6Ozm62J">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-07-07T22:41:17.377Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="oPBSVZCqY8e6POFkmaKN" version="24.6.4" type="github">
+  <diagram name="缓存异常" id="L-yS8eXxWB2dS6Ozm62J">
+    <mxGraphModel dx="868" dy="446" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fTpePGI21QQN22HlX_Q2-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="188.32999999999998" y="189" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-8" value="线程a" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-9" value="线程b" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-8" target="fTpePGI21QQN22HlX_Q2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-11" value="1.删除缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-10">
+          <mxGeometry x="-0.1149" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-12" target="fTpePGI21QQN22HlX_Q2-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;3.把查到的旧数据放到缓存&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-54">
+          <mxGeometry x="-0.2714" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-12" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/databases/SQL_Database.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="415.87" y="259" width="68.25" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.537;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-9" target="fTpePGI21QQN22HlX_Q2-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-15" value="2. 查询数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-14">
+          <mxGeometry x="-0.0955" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-18" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="188.32999999999998" y="380" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-1" target="fTpePGI21QQN22HlX_Q2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-20" value="4.更新数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-19">
+          <mxGeometry x="-0.1469" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;先删除缓存再更新数据库&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-22" target="fTpePGI21QQN22HlX_Q2-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-27" value="5.从缓存中查询出的数据是旧数据，也就是脏数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-26">
+          <mxGeometry x="-0.1438" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-22" value="线程c" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-25" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="608.33" y="280" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-28" target="fTpePGI21QQN22HlX_Q2-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-31" value="1.删除缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-30">
+          <mxGeometry x="-0.4646" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-28" value="线程a" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="271.65999999999997" y="565" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-29" target="fTpePGI21QQN22HlX_Q2-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-48" value="3.更新数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-47">
+          <mxGeometry x="-0.4815" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-29" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="279.99" y="700" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-32" value="线程b" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.loop;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="484.12" y="565" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-36" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/databases/SQL_Database.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="68.25" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.51;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-32" target="fTpePGI21QQN22HlX_Q2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-40" value="2.查询数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-39">
+          <mxGeometry x="-0.088" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-41" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="492.45" y="940" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-36" target="fTpePGI21QQN22HlX_Q2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-43" value="4.把查询到的旧数据写入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-42">
+          <mxGeometry x="-0.1955" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-45" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/databases/SQL_Database.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="283.7900000000001" y="860" width="75.75" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-50" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="288.33000000000004" y="1080" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.403;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-45" target="fTpePGI21QQN22HlX_Q2-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-52" value="5.延迟一段时间删除缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="fTpePGI21QQN22HlX_Q2-51">
+          <mxGeometry x="-0.2086" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-53" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Cache_Redis_Product.svg;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="409.12" y="400" width="83.33" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-73" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-56" target="fTpePGI21QQN22HlX_Q2-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-56" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;请求&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-57" target="fTpePGI21QQN22HlX_Q2-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-57" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;请求&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-58" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;请求&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-59" target="fTpePGI21QQN22HlX_Q2-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-59" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1335" width="130.96" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-67" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.526;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fTpePGI21QQN22HlX_Q2-58" target="fTpePGI21QQN22HlX_Q2-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-68" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;不存在的key&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="197.54000000000002" y="1270" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-69" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;不存在的key&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="197.54000000000002" y="1360" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-70" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;不存在的key&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="228.32999999999998" y="1460" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-74" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;根据key查询数据&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="349.12" y="1300" width="110.88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-76" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" vertex="1" parent="1">
+          <mxGeometry x="684" y="1334" width="83.25" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-77" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;缓存中没有数据，查询数据库&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fTpePGI21QQN22HlX_Q2-79" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1500" width="156" height="156" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
