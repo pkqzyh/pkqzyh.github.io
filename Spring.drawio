@@ -1,9 +1,180 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12">
-  <diagram name="第 1 页" id="0x529ET4NE5DzibJDSWY">
-    <mxGraphModel>
+  <diagram name="Spring循环依赖" id="0x529ET4NE5DzibJDSWY">
+    <mxGraphModel dx="1442" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7eGFCxAviJLLNRZ744zi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-1" target="7eGFCxAviJLLNRZ744zi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-1" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;A&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-2" target="7eGFCxAviJLLNRZ744zi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-2" value="B" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-9" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;@Compoment&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;public class A{&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 18px;&quot;&gt;&#x9;&lt;/span&gt;@Autowired&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 18px;&quot;&gt;&#x9;&lt;/span&gt;private B b;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;}&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;direction=west;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-20" y="50" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-10" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;@Compoment&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;public class B{&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 18px;&quot;&gt;&#x9;&lt;/span&gt;@Autowired&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 18px;&quot;&gt;&#x9;&lt;/span&gt;private A a;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;}&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;direction=west;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;循环依赖&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-13" target="7eGFCxAviJLLNRZ744zi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-48" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-16">
+          <mxGeometry x="-0.23" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" target="7eGFCxAviJLLNRZ744zi-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-13" target="7eGFCxAviJLLNRZ744zi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-51" value="③" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-50">
+          <mxGeometry x="-0.2044" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-13" value="实例化A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-15" target="7eGFCxAviJLLNRZ744zi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-15" value="在堆中开辟内存空间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-17" value="半成品A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-19" target="7eGFCxAviJLLNRZ744zi-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-19" value="初始化A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="50" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-20" target="7eGFCxAviJLLNRZ744zi-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-20" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;设置b属性,b是B类型的对象，要到Spring容器去查找&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="250" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1;dashed=1;" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-22" target="7eGFCxAviJLLNRZ744zi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-36" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-25">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-22" target="7eGFCxAviJLLNRZ744zi-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="670" />
+              <mxPoint x="100" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-37">
+          <mxGeometry x="-0.8993" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;容器中是否存在B对象&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="470" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-24" value="赋值并返回" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-26" target="7eGFCxAviJLLNRZ744zi-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-52" value="④" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-28">
+          <mxGeometry x="-0.18" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-26" target="7eGFCxAviJLLNRZ744zi-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-54" value="⑤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=18;" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-53">
+          <mxGeometry x="-0.38" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-26" value="实例化B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-27" target="7eGFCxAviJLLNRZ744zi-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-27" value="在堆中开辟内存空间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-29" value="半成品B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="440" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-31" target="7eGFCxAviJLLNRZ744zi-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-31" value="初始化B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-32" target="7eGFCxAviJLLNRZ744zi-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-32" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;设置a属性,a是A类型的对象，要到Spring容器去查找&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontStyle=1;dashed=1;" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-34" target="7eGFCxAviJLLNRZ744zi-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-41" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-40">
+          <mxGeometry x="-0.0889" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fontStyle=1;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="7eGFCxAviJLLNRZ744zi-34" target="7eGFCxAviJLLNRZ744zi-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="980" as="sourcePoint" />
+            <mxPoint x="40" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="980" />
+              <mxPoint x="-20" y="980" />
+              <mxPoint x="-20" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-44">
+          <mxGeometry x="-0.7428" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-55" value="⑥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontStyle=1" vertex="1" connectable="0" parent="7eGFCxAviJLLNRZ744zi-44">
+          <mxGeometry x="0.8997" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;容器中是否存在A对象&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-39" value="赋值并返回" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="690" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7eGFCxAviJLLNRZ744zi-47" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;①&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="102" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
