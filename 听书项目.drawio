@@ -331,6 +331,41 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-10" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="566.1999999999999" y="300" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RAD91kGBhkGQx0ZS3MH7-1" target="RAD91kGBhkGQx0ZS3MH7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-1" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/App_Service_Mobile_App.svg;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="81.6" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RAD91kGBhkGQx0ZS3MH7-2" target="RAD91kGBhkGQx0ZS3MH7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-6" value="声音播放进度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RAD91kGBhkGQx0ZS3MH7-5">
+          <mxGeometry x="-0.2133" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;用户微服务&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-4" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.mongodb;gradientColor=#DFDEDE" vertex="1" parent="1">
+          <mxGeometry x="590" y="198.8" width="102.4" height="102.4" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-8" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;集合名称是userListenerProcess_id&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="580" y="160" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-9" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;user_id&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;album_id&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;track_id&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;breack_second&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="102" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-14" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 19px&quot; class=&quot;ne-text&quot;&gt;避免用户恶意刷播放量，点赞量等，&lt;/span&gt;&lt;strong&gt;&lt;span style=&quot;color: rgb(241, 9, 37)&quot; class=&quot;ne-text&quot;&gt;业务要求:一天之内同一个用户对同一个声音统计信息只能更新一次&lt;/span&gt;&lt;/strong&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RAD91kGBhkGQx0ZS3MH7-15" value="&lt;b style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;更新声音播放进度&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
