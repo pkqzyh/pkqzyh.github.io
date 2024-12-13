@@ -1,4 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T22:21:48.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="1tcBFF4_Va564J9jGpUl" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3" pages="2">
+  <diagram id="2dVMEfP3hvcUbSW3eHFi" name="MQ概述">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="18" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-11" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=north;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="302" y="192" width="223" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-2" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.consumer_goods2;" vertex="1" parent="1">
+          <mxGeometry x="540" y="72" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-3" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.technology_icons.icon17;" vertex="1" parent="1">
+          <mxGeometry x="54" y="288" width="50" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-4" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.technology_icons.icon27;" vertex="1" parent="1">
+          <mxGeometry x="450" y="36" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-5" value="" style="fillColor=#6ABD46;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.remediate;" vertex="1" parent="1">
+          <mxGeometry x="18" y="186" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-8" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="1">
+          <mxGeometry x="252" y="146" width="50" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.queue_viewer;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="216" y="378" width="54" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="EJqIhGifLTvbeV28_dZ7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EJqIhGifLTvbeV28_dZ7-5" target="EJqIhGifLTvbeV28_dZ7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="第 1 页" id="O0XlU7D3TT2ablvjQjNK">
     <mxGraphModel dx="2137" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
