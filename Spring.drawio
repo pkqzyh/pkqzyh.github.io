@@ -179,7 +179,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gjvMlPMjbL012iBnHcg6" name="ioc">
-    <mxGraphModel dx="1034" dy="540" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -377,6 +377,79 @@
         </mxCell>
         <mxCell id="-hlvr4IsE5EWrB624ele-73" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;返回factoryBean&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="392" y="2578" width="128" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-1" target="LF5kl5YUqEZj9RJo4e34-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-1" value="阶段一：加载Bean定义信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="393" y="2931" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-2" target="LF5kl5YUqEZj9RJo4e34-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-2" value="阶段二：实例化Bean阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="644" y="2931" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-3" target="LF5kl5YUqEZj9RJo4e34-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-3" value="阶段五：获取和使用Bean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="644" y="3070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-4" target="LF5kl5YUqEZj9RJo4e34-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-4" value="阶段四：调用Bean初始化方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="952" y="3070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-5" target="LF5kl5YUqEZj9RJo4e34-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-5" value="阶段三：设置Bean属性阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="952" y="2931" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-7" value="阶段六：调用Bean销毁方法阶段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="393" y="3070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-13" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;BeanFactoryPostProcessor&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="461" y="2678" width="204" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572" y="2963.600067138672" as="targetPoint" />
+            <mxPoint x="572" y="2867" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-22" target="LF5kl5YUqEZj9RJo4e34-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-22" target="LF5kl5YUqEZj9RJo4e34-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-22" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;BeanPostProcessor&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="3146" width="168" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010.7999877929688" y="3024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-26" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;postProcessBeforeInitialization()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1147" y="2994" width="231" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-27" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;postProcessBeanFactory&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="478.5" y="2807" width="182" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.463;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-13" target="LF5kl5YUqEZj9RJo4e34-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="LF5kl5YUqEZj9RJo4e34-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895.5" y="3103.5999450683594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LF5kl5YUqEZj9RJo4e34-30" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;font-size: 14px&quot; class=&quot;ne-text&quot;&gt;postProcessorAfterInitialization()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="780" y="3209" width="231" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
