@@ -557,6 +557,60 @@
         <mxCell id="dtL3lwkdKbAS-ENzWr1t-72" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3s过期时间&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1041" y="2032.5" width="109" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-77" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Redisson锁的存储结构：Hash&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="2556" width="266" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-78" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Key&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2597" width="167" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-79" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Value&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="497" y="2597" width="211" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-80" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;field&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="497" y="2639" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-81" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;value&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="617" y="2639" width="91" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-82" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;lockKey&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2668" width="167" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-83" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;UUID:ThreadId&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="497" y="2668" width="120" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-84" value="&lt;b&gt;可重入次数&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="617" y="2667" width="93" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dtL3lwkdKbAS-ENzWr1t-85" target="dtL3lwkdKbAS-ENzWr1t-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-85" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;加锁请求&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-86" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;可重入锁加锁流程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="408.84000000000003" y="2819" width="211" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dtL3lwkdKbAS-ENzWr1t-87" target="dtL3lwkdKbAS-ENzWr1t-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dtL3lwkdKbAS-ENzWr1t-87" target="dtL3lwkdKbAS-ENzWr1t-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-87" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;判断锁是否存在&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="3000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dtL3lwkdKbAS-ENzWr1t-90" target="dtL3lwkdKbAS-ENzWr1t-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-90" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;获取锁，添加线程标识，锁重入次数设置为1&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3116" width="211" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-92" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;设置锁的过期时间&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="3228" width="216" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="dtL3lwkdKbAS-ENzWr1t-95" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;判断锁标识是否为自己&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="3103" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
