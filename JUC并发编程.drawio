@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1" pages="4">
   <diagram name="volatile" id="ep0-bTd-3XREiX8IrepB">
     <mxGraphModel dx="1042" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -1645,6 +1645,271 @@
         </mxCell>
         <mxCell id="KrG-E1u1niBzhF6ikIOE-76" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;LockSupport.parkUntil&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="24" width="205" x="887.19" y="942" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="uu9S39McoG3Q9bt_WfXx" name="卖票的线程安全问题">
+    <mxGraphModel dx="1034" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8tiShbOtjrsv6IHykSLb-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="130" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="167" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="109" width="158" x="161" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-4" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="147" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-5" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="192.5" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="415" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-7" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="452" y="137" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="109" width="158" x="446" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="432" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="477.5" y="253" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="708" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-12" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="745" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="109" width="158" x="739" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="725" y="177" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-15" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="770.5" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-16" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;情况一：卖出300张票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="19" width="200" x="130" y="83" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="130" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-18" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="167" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="50" width="155" x="161" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-20" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="150" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-21" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;卖票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="158" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-32" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;情况二：卖出300张票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="19" width="200" x="130" y="392" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="" vertex="1">
+          <mxGeometry height="36" width="152" x="161" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-34" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="185" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="427" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-37" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="464" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="50" width="155" x="458" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-39" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="447" y="537" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;卖票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="455" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="" vertex="1">
+          <mxGeometry height="36" width="152" x="458" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-42" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="482" y="491" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="729" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-44" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="766" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="50" width="155" x="760" y="543" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-46" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="749" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-47" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;卖票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="757" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="" vertex="1">
+          <mxGeometry height="36" width="152" x="760" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-49" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="784" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-77" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8tiShbOtjrsv6IHykSLb-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="952" />
+              <mxPoint x="535" y="952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="136" y="1013" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-51" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="173" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="109" width="158" x="167" y="1062" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-53" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="153" y="1062" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-54" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="198.5" y="1141" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-76" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8tiShbOtjrsv6IHykSLb-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="421" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-56" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="458" y="1024" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="109" width="158" x="452" y="1061" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-58" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="438" y="1061" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-59" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="483.5" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-80" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="8tiShbOtjrsv6IHykSLb-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="953" />
+              <mxPoint x="535" y="953" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="228" x="714" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-61" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="141" x="751" y="1027" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="109" width="158" x="745" y="1064" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-63" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="731" y="1064" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-64" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="776.5" y="1143" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="415" y="753" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-66" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;class SaleTicketWindow&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;保存到方法区&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="8" width="196" x="428.5" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="" vertex="1">
+          <mxGeometry height="36" width="208" x="430" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-71" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;static ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="194" x="437" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-81" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;情况三：&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="22" width="77" x="136" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-82" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;为了三个对象，可以共享ticketNum,把ticketNum声明为静态变量，随着类的加载而加载，所以三个窗口总共卖100张票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="12" width="806" x="243" y="673" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-83" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="8tiShbOtjrsv6IHykSLb-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-84" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;new出来的对象存储在JVM管理的堆空间，类的信息存储在方法区，全局就只有一个类&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="12" width="806" x="248" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-85" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;情况四：让卖票实现Runnable接口，启动多个线程，共同执行同一个Runnable对象的方法&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="29" width="772" x="131" y="1301" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="159" width="355" x="252" y="1366" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-94" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;SaleTicketWindow implements Runnable&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="329" x="268" y="1374" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="50" width="155" x="337" y="1475" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-96" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;run&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="330" y="1474" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-97" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;卖票&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="334" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-98" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" value="" vertex="1">
+          <mxGeometry height="36" width="152" x="343" y="1413" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-99" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;ticketNum=100&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="374" y="1419" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="启动一个线程卖票&lt;div&gt;new Thread(r)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="173" y="1643" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-107" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="8tiShbOtjrsv6IHykSLb-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="启动一个线程卖票&lt;div&gt;new Thread(r)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="364" y="1646" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-108" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="8tiShbOtjrsv6IHykSLb-97">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="651" y="1577" />
+              <mxPoint x="424" y="1577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="启动一个线程卖票&lt;div&gt;new Thread(r)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="591" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-104" edge="1" parent="1" source="8tiShbOtjrsv6IHykSLb-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="8tiShbOtjrsv6IHykSLb-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="1576" />
+              <mxPoint x="424" y="1576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8tiShbOtjrsv6IHykSLb-109" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;多个线程执行同一个任务&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="246" x="694" y="1463" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
