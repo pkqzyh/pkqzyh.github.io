@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7" pages="4">
   <diagram name="volatile" id="ep0-bTd-3XREiX8IrepB">
-    <mxGraphModel dx="1034" dy="564" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="594" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -567,6 +567,126 @@
         </mxCell>
         <mxCell id="idD1GI9qbJXg05r9_xT7-68" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" value="&lt;b&gt;&lt;font&gt;lock&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="876.87" y="3829" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="246" y="4017" as="sourcePoint" />
+            <mxPoint x="246" y="4431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="1.分配对象的内存空间" vertex="1">
+          <mxGeometry height="67" width="139" x="339" y="4017" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="3.设置instance指向刚分配的内存地址" vertex="1">
+          <mxGeometry height="67" width="139" x="343" y="4133" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="2.初始化对象" vertex="1">
+          <mxGeometry height="67" width="139" x="343" y="4247" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="4.初次访问对象" vertex="1">
+          <mxGeometry height="67" width="139" x="343" y="4368" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-9" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;线程A&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="363" y="3971" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;时间&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="120" y="4198" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="713" y="4241" as="sourcePoint" />
+            <mxPoint x="540.5" y="4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-12" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="690" y="4289" as="sourcePoint" />
+            <mxPoint x="512.12" y="4286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-13" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="697.13" y="4345" as="sourcePoint" />
+            <mxPoint x="553" y="4406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;这里虽然2，3重排序了，但是单线程情况下，只要保证2排在4前面之前，单线程内的执行结果就不会改变。&lt;/font&gt;" vertex="1">
+          <mxGeometry height="102" width="184.13" x="748.13" y="4221" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="231.62" y="4762" as="sourcePoint" />
+            <mxPoint x="232" y="5257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="1.分配对象的内存空间" vertex="1">
+          <mxGeometry height="67" width="139" x="324.62" y="4762" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="3.设置instance指向刚分配的内存地址" vertex="1">
+          <mxGeometry height="67" width="139" x="326" y="4881" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="2.初始化对象" vertex="1">
+          <mxGeometry height="67" width="139" x="326" y="5090" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="4.线程A初次访问对象" vertex="1">
+          <mxGeometry height="67" width="139" x="325.25" y="5218" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-22" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;线程A&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="348.62" y="4716" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;时间&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="105.62" y="4943" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-28" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;线程B&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="660" y="4716" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="判断instances是否为null" vertex="1">
+          <mxGeometry height="67" width="139" x="644" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-32" edge="1" parent="1" source="m80-kIjy0zapSx4o4tNY-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" target="m80-kIjy0zapSx4o4tNY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="B线程初次访问对象" vertex="1">
+          <mxGeometry height="67" width="139" x="642" y="5042" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="236" y="5402" as="sourcePoint" />
+            <mxPoint x="236.38" y="5897" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="1.分配对象的内存空间" vertex="1">
+          <mxGeometry height="67" width="139" x="329" y="5402" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="3.设置instance指向刚分配的内存地址" vertex="1">
+          <mxGeometry height="67" width="139" x="328.5" y="5610" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="2.初始化对象" vertex="1">
+          <mxGeometry height="67" width="139" x="327.88" y="5506" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="4.线程A初次访问对象" vertex="1">
+          <mxGeometry height="67" width="139" x="329.63" y="5858" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-39" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;线程A&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="353" y="5356" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-40" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;时间&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="110" y="5583" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-41" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;线程B&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="664.38" y="5356" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="判断instances是否为null" vertex="1">
+          <mxGeometry height="67" width="139" x="639.88" y="5666" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-46" edge="1" parent="1" source="m80-kIjy0zapSx4o4tNY-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="m80-kIjy0zapSx4o4tNY-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="B线程初次访问对象" vertex="1">
+          <mxGeometry height="67" width="139" x="644" y="5782" as="geometry" />
+        </mxCell>
+        <mxCell id="m80-kIjy0zapSx4o4tNY-45" edge="1" parent="1" source="m80-kIjy0zapSx4o4tNY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="m80-kIjy0zapSx4o4tNY-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
