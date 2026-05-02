@@ -5,48 +5,48 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14" value="股东大会&lt;div&gt;（最高权力机构）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="300" y="20" as="geometry" />
+          <mxGeometry height="60" width="160" x="352" y="18" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="董事会&lt;div&gt;(决策机构)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="180" y="140" as="geometry" />
+          <mxGeometry height="60" width="160" x="232" y="138" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="监事会&lt;div&gt;(监督机构)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="420" y="140" as="geometry" />
+          <mxGeometry height="60" width="160" x="472" y="138" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11" value="董事会专门委员会&#xa;(战略、审计、风险、提名、薪酬等)" vertex="1">
-          <mxGeometry height="60" width="180" x="20" y="240" as="geometry" />
+          <mxGeometry height="60" width="180" x="72" y="238" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=11" value="监事会专门委员会&#xa;(提名、监督委员会)" vertex="1">
-          <mxGeometry height="60" width="160" x="560" y="240" as="geometry" />
+          <mxGeometry height="60" width="160" x="612" y="238" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="高级管理层&#xa;(行长/行长室)" vertex="1">
-          <mxGeometry height="60" width="160" x="300" y="340" as="geometry" />
+          <mxGeometry height="60" width="160" x="352" y="338" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="风险管理部" vertex="1">
-          <mxGeometry height="50" width="100" x="60" y="460" as="geometry" />
+          <mxGeometry height="50" width="100" x="112" y="458" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="财务会计部" vertex="1">
-          <mxGeometry height="50" width="100" x="180" y="460" as="geometry" />
+          <mxGeometry height="50" width="100" x="232" y="458" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="合规法务部" vertex="1">
-          <mxGeometry height="50" width="100" x="300" y="460" as="geometry" />
+          <mxGeometry height="50" width="100" x="352" y="458" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="人力资源部" vertex="1">
-          <mxGeometry height="50" width="100" x="420" y="460" as="geometry" />
+          <mxGeometry height="50" width="100" x="472" y="458" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="业务部门&#xa;(对公/零售/金融市场)" vertex="1">
-          <mxGeometry height="50" width="140" x="540" y="460" as="geometry" />
+          <mxGeometry height="50" width="140" x="592" y="458" as="geometry" />
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-13" edge="1" parent="1" source="lZRbB-lsxpwyPhMyrf8p-2" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="90" as="sourcePoint" />
-            <mxPoint x="260" y="130" as="targetPoint" />
+            <mxPoint x="432" y="88" as="sourcePoint" />
+            <mxPoint x="312" y="128" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-14" edge="1" parent="1" source="lZRbB-lsxpwyPhMyrf8p-2" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="90" as="sourcePoint" />
-            <mxPoint x="500" y="130" as="targetPoint" />
+            <mxPoint x="432" y="88" as="sourcePoint" />
+            <mxPoint x="552" y="128" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-15" edge="1" parent="1" source="lZRbB-lsxpwyPhMyrf8p-3" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-5" value="">
@@ -63,39 +63,39 @@
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-19" edge="1" parent="1" source="lZRbB-lsxpwyPhMyrf8p-7" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="410" as="sourcePoint" />
-            <mxPoint x="380" y="440" as="targetPoint" />
+            <mxPoint x="432" y="408" as="sourcePoint" />
+            <mxPoint x="432" y="438" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="110" y="440" as="sourcePoint" />
-            <mxPoint x="610" y="440" as="targetPoint" />
+            <mxPoint x="162" y="438" as="sourcePoint" />
+            <mxPoint x="662" y="438" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-21" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-8" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="110" y="440" as="sourcePoint" />
+            <mxPoint x="162" y="438" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-22" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-9" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="230" y="440" as="sourcePoint" />
+            <mxPoint x="282" y="438" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-23" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-10" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="350" y="440" as="sourcePoint" />
+            <mxPoint x="402" y="438" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-24" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-11" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="470" y="440" as="sourcePoint" />
+            <mxPoint x="522" y="438" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lZRbB-lsxpwyPhMyrf8p-25" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" target="lZRbB-lsxpwyPhMyrf8p-12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="610" y="440" as="sourcePoint" />
+            <mxPoint x="662" y="438" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
