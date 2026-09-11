@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.5" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" pages="4">
   <diagram name="Spring循环依赖" id="0x529ET4NE5DzibJDSWY">
     <mxGraphModel dx="1434" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -629,6 +629,91 @@
         </mxCell>
         <mxCell id="XzZFGofTQJ054ZmlWhqK-61" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51); font-size: 23px;&quot;&gt;spring-jdbc&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1584" y="176" width="132" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i8bxwCG2FwMpnbtQxSU9" name="Spring的Bean">
+    <mxGraphModel dx="1022" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="234" width="271" x="604" y="397" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-23" edge="1" parent="1" source="Zu0WYwsvfs2DpqT6gn6t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Zu0WYwsvfs2DpqT6gn6t-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="70" width="284" x="183.5" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bean配置信息" vertex="1">
+          <mxGeometry height="23" width="95" x="271.5" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" value="XML&amp;lt;bean&amp;gt;" vertex="1">
+          <mxGeometry height="39" width="64" x="197.5" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Java类@Configuration" vertex="1">
+          <mxGeometry height="39" width="64" x="275.5" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" value="注解@Autowire" vertex="1">
+          <mxGeometry height="39" width="64" x="360.5" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="75" width="291" x="176.5" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Bean实现类" vertex="1">
+          <mxGeometry height="39" width="67" x="194.5" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Bean实现类" vertex="1">
+          <mxGeometry height="39" width="67" x="279.5" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=9;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Bean实现类" vertex="1">
+          <mxGeometry height="39" width="67" x="372" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bean实现类" vertex="1">
+          <mxGeometry height="23" width="95" x="282.5" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-28" edge="1" parent="1" source="Zu0WYwsvfs2DpqT6gn6t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zu0WYwsvfs2DpqT6gn6t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="应用程序" vertex="1">
+          <mxGeometry height="48" width="119" x="741.5" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Spring容器" vertex="1">
+          <mxGeometry height="30" width="69.5" x="684.5" y="404.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-25" edge="1" parent="1" source="Zu0WYwsvfs2DpqT6gn6t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="Zu0WYwsvfs2DpqT6gn6t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="121.5" width="104" x="623" y="434.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bean定义注册表" vertex="1">
+          <mxGeometry height="30" width="104" x="623" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="110" width="119" x="744" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Bean缓存池" vertex="1">
+          <mxGeometry height="30" width="104" x="749" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.读取配置信息" vertex="1">
+          <mxGeometry height="30" width="92" x="508" y="404.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.根据注册表实例化Bean" vertex="1">
+          <mxGeometry height="30" width="92" x="451" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.651;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zu0WYwsvfs2DpqT6gn6t-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="472.4" y="579.61" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.把实例化Bean放入IOC容器" vertex="1">
+          <mxGeometry height="30" width="92" x="495" y="594" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu0WYwsvfs2DpqT6gn6t-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.使用Bean" vertex="1">
+          <mxGeometry height="30" width="92" x="811" y="356" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
