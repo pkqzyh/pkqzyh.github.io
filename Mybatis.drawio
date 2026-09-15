@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="9xLlOSAbA54PUZ89hFLu">
-    <mxGraphModel dx="4322" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ExgctrMrRaccJ4NksWr7-39" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="ExgctrMrRaccJ4NksWr7-39" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="98.5" width="222" x="-6" y="898.25" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-1" parent="1" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;html=1;" value="API 接口层" vertex="1">
@@ -82,20 +82,43 @@
         <mxCell id="ExgctrMrRaccJ4NksWr7-25" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-19" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ExgctrMrRaccJ4NksWr7-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-23" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ExgctrMrRaccJ4NksWr7-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SqlSessionFactory" vertex="1">
           <mxGeometry height="60" width="302" x="297" y="1022" as="geometry" />
         </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-20" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ExgctrMrRaccJ4NksWr7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-24" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170.79995727539062" y="1164" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="SqlSession" vertex="1">
-          <mxGeometry height="60" width="194" x="321" y="1136" as="geometry" />
+          <mxGeometry height="60" width="302" x="297" y="1134" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-21" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ExgctrMrRaccJ4NksWr7-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Executor（执行器）" vertex="1">
-          <mxGeometry height="60" width="199" x="321" y="1241" as="geometry" />
+          <mxGeometry height="60" width="302" x="297" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-22" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7eMud05XDWRmVkdwLy_l-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Mapper&amp;nbsp; &amp;nbsp;Satement" vertex="1">
-          <mxGeometry height="60" width="199" x="321" y="1346" as="geometry" />
+          <mxGeometry height="60" width="299" x="298.5" y="1346" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-27" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ExgctrMrRaccJ4NksWr7-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
-          <mxGeometry height="120" width="345" x="284" y="859" as="geometry" />
+          <mxGeometry height="120" width="305" x="294" y="859" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Mybatis核心配置文件&lt;div&gt;MyBatisConfig.xml&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="55" width="191" x="347" y="866" as="geometry" />
@@ -104,31 +127,84 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mapper.xml" vertex="1">
-          <mxGeometry height="39" width="99" x="299" y="928" as="geometry" />
+          <mxGeometry height="39" width="90" x="300" y="928" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mapper.xml" vertex="1">
-          <mxGeometry height="39" width="99" x="407" y="928" as="geometry" />
+          <mxGeometry height="39" width="84" x="401" y="928" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mapper.xml" vertex="1">
-          <mxGeometry height="39" width="99" x="520" y="926" as="geometry" />
+          <mxGeometry height="39" width="80" x="499" y="928" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-38" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="mybatis框架的映射文件，编写sql语句，可以有多个映射文件" vertex="1">
           <mxGeometry height="30" width="169" x="25" y="932.5" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" value="通过MyBatis环境的配置信息构造SqlSessionFactory（会话工厂）" vertex="1">
-          <mxGeometry height="60" width="149" x="28" y="1018" as="geometry" />
+          <mxGeometry height="60" width="149" x="20" y="1022" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="通过会话工厂构建SqlSession对象(会话)，对数据库进行增删改查操作，底层封装的是Connection对象" vertex="1">
-          <mxGeometry height="86" width="162" x="20" y="1134" as="geometry" />
+          <mxGeometry height="86" width="162" x="7" y="1124" as="geometry" />
         </mxCell>
-        <mxCell id="ExgctrMrRaccJ4NksWr7-43" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="171.5" width="307" x="653" y="828" as="geometry" />
+        <mxCell id="ExgctrMrRaccJ4NksWr7-43" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="200" width="310" x="671" y="819" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-44" parent="1" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;rounded=0;" value="1.属于MyBatis的核心配置文件，一个MyBatis项目只能有一个核心配置文件" vertex="1">
-          <mxGeometry height="30" width="203" x="705" y="878.5" as="geometry" />
+          <mxGeometry height="30" width="203" x="741" y="866" as="geometry" />
         </mxCell>
         <mxCell id="ExgctrMrRaccJ4NksWr7-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.文件名随意" vertex="1">
-          <mxGeometry height="30" width="111.5" x="695" y="916" as="geometry" />
+          <mxGeometry height="30" width="110" x="726" y="896" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.文件要放在resource目录下面" vertex="1">
+          <mxGeometry height="30" width="213" x="723" y="915.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.核心配置文件主要有连接数据库的四大参数以及加载MyBatis框架的映射文件" vertex="1">
+          <mxGeometry height="10" width="226.5" x="734" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="通过SqlSession会话对象来调用执行器，使用执行器来执行sql语句" vertex="1">
+          <mxGeometry height="60" width="191" x="695" y="1232" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="select * from user where username=? and password=?" vertex="1">
+          <mxGeometry height="30" width="314" x="297" y="1421" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-6" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fad9d5;strokeColor=#ae4132;" value="&lt;div&gt;数据库&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="98.5" width="113" x="391.5" y="1481.75" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="193" width="169" x="33" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL输入参数" vertex="1">
+          <mxGeometry height="30" width="84" x="68" y="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="HashMap" vertex="1">
+          <mxGeometry height="30" width="93" x="65" y="1486" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="String,Integer" vertex="1">
+          <mxGeometry height="30" width="93" x="63.5" y="1535" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="POJO" vertex="1">
+          <mxGeometry height="30" width="93" x="65" y="1584" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="193" width="169" x="698" y="1434.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="输出结果" vertex="1">
+          <mxGeometry height="30" width="84" x="733" y="1448.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="HashMap" vertex="1">
+          <mxGeometry height="30" width="93" x="730" y="1490.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="String,Integer" vertex="1">
+          <mxGeometry height="30" width="93" x="728.5" y="1539.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="POJO" vertex="1">
+          <mxGeometry height="30" width="93" x="730" y="1588.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-18" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446.5" y="1021.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eMud05XDWRmVkdwLy_l-26" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" target="7eMud05XDWRmVkdwLy_l-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
