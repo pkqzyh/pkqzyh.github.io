@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="9xLlOSAbA54PUZ89hFLu">
-    <mxGraphModel>
+    <mxGraphModel dx="1022" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ExgctrMrRaccJ4NksWr7-1" parent="1" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;html=1;" value="API 接口层" vertex="1">
+          <mxGeometry height="120" width="1000" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-2" parent="ExgctrMrRaccJ4NksWr7-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;SqlSession&lt;/b&gt;&lt;br&gt;负责 &amp;nbsp;API 的调用、返回结果" vertex="1">
+          <mxGeometry height="60" width="200" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-3" parent="ExgctrMrRaccJ4NksWr7-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Mapper 接口代理&lt;/b&gt;&lt;br&gt;面向接口编程" vertex="1">
+          <mxGeometry height="60" width="200" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-4" parent="1" style="swimlane;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;html=1;" value="数据处理层 (核心处理层)" vertex="1">
+          <mxGeometry height="380" width="1000" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-5" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0f5;strokeColor=#f8cecc;" value="&lt;b&gt;MyBatis 配置&lt;/b&gt;&lt;br&gt;SqlConfig.xml / 属性 / 插件" vertex="1">
+          <mxGeometry height="60" width="200" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-6" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0f5;strokeColor=#f8cecc;" value="&lt;b&gt;SqlSource&lt;/b&gt;&lt;br&gt;动态 SQL 生成" vertex="1">
+          <mxGeometry height="60" width="200" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-7" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;StatementHandler&lt;/b&gt;&lt;br&gt;SQL 语句处理与参数构建" vertex="1">
+          <mxGeometry height="60" width="200" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-8" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;ParameterHandler&lt;/b&gt;&lt;br&gt;参数处理器" vertex="1">
+          <mxGeometry height="60" width="200" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-9" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;b&gt;Executor (执行器)&lt;/b&gt;&lt;br&gt;负责 SQL 语句的查询缓存和事务管理" vertex="1">
+          <mxGeometry height="60" width="440" x="280" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-10" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;b&gt;ResultSetHandler&lt;/b&gt;&lt;br&gt;结果集处理器" vertex="1">
+          <mxGeometry height="60" width="200" x="520" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-11" parent="ExgctrMrRaccJ4NksWr7-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;b&gt;TypeHandler (类型处理器)&lt;/b&gt;&lt;br&gt;Java 类型与 JDBC 类型转换" vertex="1">
+          <mxGeometry height="60" width="200" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-12" parent="1" style="swimlane;startSize=30;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;html=1;" value="基础支撑层" vertex="1">
+          <mxGeometry height="120" width="1000" x="20" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-13" parent="ExgctrMrRaccJ4NksWr7-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;数据源 / 连接池&lt;/b&gt;&lt;br&gt;PooledDataSource" vertex="1">
+          <mxGeometry height="60" width="200" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-14" parent="ExgctrMrRaccJ4NksWr7-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;事务管理&lt;/b&gt;&lt;br&gt;Transaction" vertex="1">
+          <mxGeometry height="60" width="200" x="280" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-15" parent="ExgctrMrRaccJ4NksWr7-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;缓存模块&lt;/b&gt;&lt;br&gt;一级缓存 / 二级缓存" vertex="1">
+          <mxGeometry height="60" width="200" x="520" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-16" parent="ExgctrMrRaccJ4NksWr7-12" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="&lt;b&gt;日志模块&lt;/b&gt;&lt;br&gt;Logging" vertex="1">
+          <mxGeometry height="60" width="200" x="760" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-17" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;b&gt;Database (数据库)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="455" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-18" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-19" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-20" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-21" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-22" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-23" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-24" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExgctrMrRaccJ4NksWr7-25" edge="1" parent="1" source="ExgctrMrRaccJ4NksWr7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" target="ExgctrMrRaccJ4NksWr7-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
